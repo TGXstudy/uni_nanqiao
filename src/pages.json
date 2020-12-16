@@ -1,0 +1,163 @@
+{
+	"condition":{
+		"current":1,
+		"list":[
+			{
+				"name":"addrList",
+				"path":"pages/address/address"
+			},
+			{
+				"name":"overbook",
+				"path":"pages/overbook/overbook"
+			},
+			{
+				"name":"myfav",
+				"path":"pages/mine/fav"
+			},
+			{
+				"name":"order",
+				"path":"pages/order/order"
+			},
+			{
+				"name":"qualificate",
+				"path":"pages/qualificate/qualificate"
+			},
+			{
+				"name":"payment",
+				"path":"pages/payment/payment",
+				"query":"sum=35&fromPage=overbook&orderId=13"
+			},
+			{
+				"name":"sheetDetail",
+				"path":"pages/sheet/sheetDetail",
+				"query":"orderId=13&pageType=sheet"
+			},
+			{
+				"name":"sheet",
+				"path":"pages/sheet/sheet"
+			},
+			{
+				"name":"mine",
+				"path":"pages/mine/mine"
+			},
+			{
+				"name":"grabOrder",
+				"path":"pages/grabOrder/grabOrder"
+			},
+			
+			
+			{
+				"name":"addAddr",
+				"path":"pages/address/addAddr"
+			},
+			{
+				"name":"chooseAddr",
+				"path":"pages/address/chooseAddr"
+			},
+			{
+				"name":"login",
+				"path":"pages/login/login"
+			}
+		]
+	}
+	,
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/overbook/bookDetail"
+		},
+		{
+			"path": "pages/qualificate/qualificate"
+		},
+		{
+			"path": "pages/sheet/sheet"
+		},
+		{
+			"path": "pages/sheet/sheetDetail"
+		},
+		
+		{
+			"path": "pages/address/address"
+		},
+		{
+			"path": "pages/mine/bindTel"
+		},
+		{
+			"path": "pages/address/addAddr"
+		},
+		{
+			"path":"pages/address/chooseAddr"
+		},
+		{
+			"path":"pages/payment/payment"
+		},
+		{
+			"path":"pages/grabOrder/grabOrder"
+		},
+		{
+			"path":"pages/mine/mine"
+		},
+		{
+			"path":"pages/mine/fav"
+		},
+		{
+			"path": "pages/mine/favComment"
+		},
+		{
+			"path":"pages/mine/feed"
+		},
+		{
+			"path":"pages/mine/msg"
+			
+		},
+		{
+			"path":"pages/mine/pwd"
+		},
+		{
+			"path":"pages/mine/share"
+		},
+		{
+			"path":"pages/wallet/wallet"
+		},
+		{
+			"path":"pages/wallet/cashout"
+		},
+		{
+			"path":"pages/wallet/recharge"
+		},
+		{
+			"path":"pages/wallet/cashRecd"
+		},
+		{
+			"path":"pages/protocol/protocol"
+		},
+		{
+			"path": "pages/order/order"
+		},
+		{
+			"path": "pages/overbook/overbook"
+		},
+		{
+			"path": "pages/login/login"
+		}
+	
+	],
+	
+	
+	"globalStyle": {
+		"navigationBarTitleText": "南峤宿洁",
+		"backgroundColor": "#EFEFEF",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black",
+		"backgroundColorTop": "#fff",
+		"backgroundColorBottom": "#fff"
+	},
+	 "permission": {
+	    "scope.userLocation": {
+	      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+	    }
+	  }
+
+}
